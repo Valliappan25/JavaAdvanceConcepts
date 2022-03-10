@@ -1,0 +1,8 @@
+1.Mention the Type of DB Used (MySQL, Oracle, Sybase)
+2.Download/import the DB Connector Jar (Satisfy the dependency using maven)
+3.MEntion Database driver in Class.forName()
+	for MySQL - "com.mysql.cj.jdbc.Driver"
+4.Provide the DB URL, USername,password in get connection
+5. create the object fopr statement for Statement class and provide Query inside Execute Statement.
+6.Store the Query results in result set and iterate it using while loop to print the values.
+ 
